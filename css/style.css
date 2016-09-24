@@ -1,0 +1,341 @@
+
+nav{
+	background-color: #2B3E4F;
+	padding-bottom: 20px;
+    padding-top: 10px;
+}
+nav div{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 20px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+nav ul{
+	display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 9px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right:10px;
+}
+nav ul li a{
+	font-size: 20px;
+	text-transform:	uppercase;
+	text-decoration: none;
+	margin-left: 10px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.presentacion{
+	background-color: #00BD9D;
+}
+
+.presentacion p {
+
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:50px;
+    font-size:22px;
+
+}
+
+.estrella {
+margin-top:50px;
+color:white;
+font-size:30px;
+
+}
+
+.estrella:before, .estrella:after{
+
+    content:"";
+    width:100px;
+    height:3px;
+    display:inline-block;
+    background:white;
+    position:relative;
+    top:-10px;
+}
+
+
+.contenedor{
+	max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columna{
+	max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.perfil{
+	padding: 60px;
+}
+.presentacion{
+	padding: 45px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+.hobbie{
+	margin: 10px;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    padding: 90px;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.relleno{
+	position: absolute;
+    width: 480px;
+    height: 247px;
+    margin-top: -350px;
+    background-color: rgba(0,255,0,0.0);
+    transition: 2s;
+    font-size: 150px;
+    color: rgba(0,0,0,0);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.relleno:hover{
+	background-color: rgba(0,255,0,1);
+	color: white; 
+}
+
+
+.presentacion h1{
+	font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding-top: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.portfolio{
+	padding-bottom: 200px;
+}
+
+.about{
+	background-color: #00BD9D;
+	padding-bottom: 150px;
+}
+
+.titulo2{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 90px;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.contenedorsinwrap{
+	max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.parrafo1, .parrafo2{
+    display: inline-block;
+    width: 47%;
+    font-size: 38px;
+    padding: 36px;
+    color: white;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.contactme{
+	text-align: center;
+    margin-bottom:170px;
+}
+
+.formulario{
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Monserrat', sans-serif;
+
+}
+
+.formulario input{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 31px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: none;
+    float: left;
+}
+
+.formulario textarea{
+	padding-bottom: 20%;
+	font-size: 31px;
+    font-family: 'Monserrat', sans-serif;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: none;
+}
+
+.boton{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+	background-color: #00BD9D;
+	border-radius: 10%;
+	font-size: 20px;
+	color: white; 
+	font-family: 'Monserrat', sans-serif;
+}
+
+
+footer {
+
+    padding-bottom: 20px;
+    padding-top: 29px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    /* justify-content: center; */
+    background: #2b3e4f;
+}
+
+.redes-iconos{
+    margin-top: 20px;
+    font-size:32px;
+    color:white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color:#2b3e4f;
+    border:white solid 1px;
+    display: inline-block;
+
+}
+
+.redes-iconos span {
+
+    margin-top: 4px;
+    position: relative;
+    display: inline-block;
+}
+
+.redes {
+
+    font-family: 'Monserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+}
+
+.redes1 {
+
+    font-family: 'Monserrat', sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    width: 40%;
+}
+
+.redes1 div {
+    text-transform: none;
+    font-weight: normal;
+}
+
+.redes1 p {
+
+    margin-bottom: 45px;
+    
+}
+
+.redes p {
+
+    margin-bottom:25px;
+}
+
+
+.copyright {
+
+    background:#213140;
+    color:white;
+    font-family:'Monserrat', 'sans-serif';
+    padding:50px;
+    text-align:center;
+}
+
+@media (max-width: 500px){
+    nav{
+        text-align: left;
+    }
+    nav div {
+        display: block;
+        padding-bottom: 3%;
+        margin-left: 6%;
+    }
+    nav ul{
+        float:none;
+        margin-left: 5%;
+    }
+    .presentacion h1{
+        font-size: 20px;
+    }
+    .parrafo1{
+        display: inline-block;
+        width: 80%;
+        font-size: 30px;
+        padding: 36px;
+        color: white;
+        font-family: 'Monserrat', sans-serif;
+    }
+    .parrafo2{
+        display: none;
+    }
+    .titulo{
+        font-size: 80px
+    }
+    .formulario{
+        margin-right: 5%;
+        margin-left: 5%;
+        font-family: 'Monserrat', sans-serif;
+    }
+    
+    .redes1 {
+        display:none;
+    }
+
+    }
+
+
+
+
